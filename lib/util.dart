@@ -3,15 +3,11 @@ import 'dart:math' as math;
 import 'package:msgpack2/msgpack2.dart' as msgpack;
 
 const DEFAULT_CONFIG = {
-  'iceServers': [
-    {'urls': "stun:stun.l.google.com:19302"},
-    {
-      'urls': "turn:0.peerjs.com:3478",
-      'username': "peerjs",
-      'credential': "peerjsp"
-    }
+  "iceServers": [
+    {"urls": "stun:stun.l.google.com:19302" },
+    {"urls": "turn:0.peerjs.com:3478", "username": "peerjs", "credential": "peerjsp" }
   ],
-  'sdpSemantics': "unified-plan"
+  "sdpSemantics": "unified-plan"
 };
 
 class Util {

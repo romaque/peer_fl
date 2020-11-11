@@ -12,8 +12,8 @@ dependencies:
     sdk: flutter
 
   web_socket_channel: ^1.1.0
-  flutter_webrtc: ^0.1.7
-  http: ^0.12.0+2
+  flutter_webrtc: ^0.4.0
+  http: ^0.12.2
   msgpack2: ^2.0.0+1
   eventify: ^0.1.4
 
